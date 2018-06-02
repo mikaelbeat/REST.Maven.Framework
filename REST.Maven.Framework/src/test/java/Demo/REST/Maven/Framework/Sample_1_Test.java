@@ -1,8 +1,8 @@
 package Demo.REST.Maven.Framework;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-public class Sample_Tests_1 {
+public class Sample_1_Test {
 	
 	@Test
 	public void First_Test() {
@@ -13,5 +13,7 @@ public class Sample_Tests_1 {
 	public void Second_Test() {
 		System.out.println("My second test.");
 	}
+	
+	// Video 12,37
 
 }

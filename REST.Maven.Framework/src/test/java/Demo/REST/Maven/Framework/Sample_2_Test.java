@@ -1,8 +1,8 @@
 package Demo.REST.Maven.Framework;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
-public class Sample_Tests_2 {
+public class Sample_2_Test {
 	
 	@Test
 	public void Third_Test() {

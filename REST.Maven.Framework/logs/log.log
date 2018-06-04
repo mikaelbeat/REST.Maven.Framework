@@ -1,0 +1,14 @@
+2018-06-04 11:48:30 DEBUG Sample_1_Test:13 - My first test.
+2018-06-04 11:48:30 INFO  Sample_1_Test:18 - My second test.
+2018-06-04 11:51:22 DEBUG Sample_1_Test:13 - My first test.
+2018-06-04 11:51:22 INFO  Sample_1_Test:18 - My second test.
+2018-06-04 11:52:44 DEBUG Sample_1_Test:13 - My first test.
+2018-06-04 11:52:44 INFO  Sample_1_Test:18 - My second test.
+2018-06-04 11:52:44 FATAL Sample_1_Test:19 - Fataali errori
+2018-06-04 11:53:35 DEBUG Sample_1_Test:13 - My first test.
+2018-06-04 11:53:35 INFO  Sample_1_Test:18 - My second test.
+2018-06-04 11:53:35 FATAL Sample_1_Test:19 - Fataali errori
+2018-06-04 11:54:40 DEBUG Sample_1_Test:13 - My first test.
+2018-06-04 11:54:40 INFO  Sample_1_Test:18 - My second test.
+2018-06-04 11:54:40 FATAL Sample_1_Test:19 - Fataali errori
+2018-06-04 11:54:40 ERROR Sample_1_Test:28 - java.lang.ArithmeticException: / by zero

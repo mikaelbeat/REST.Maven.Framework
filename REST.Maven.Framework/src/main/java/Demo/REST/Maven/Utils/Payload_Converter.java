@@ -4,11 +4,24 @@ import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
+import org.apache.log4j.LogManager;
+import org.apache.log4j.Logger;
+
+import Demo.REST.Maven.Framework.REST_Calls;
+
 public class Payload_Converter {
 	
-	public static String Convert_Payload(String filename) throws IOException {
-		String filePath = System.getProperty("user.dir")+"\\resources\\payloads\\+filename";
-		return new String(Files.readAllBytes(Paths.get(filePath)));
+	private static Logger log = LogManager.getLogger(Payload_Converter.class.getName());
+	
+	public static String Convert_Payload(String filename) {
+		log.info("Inside payload converter function.");
+		String filePath = System.getProperty("user.dir")+"\\resources\\payloads\\"+filename;
+		try {
+			return new String(Files.readAllBytes(Paths.get(filePath)));
+		} catch (IOException e) {
+			log.error(e);
+			return null;
+		}
 	}
 
 }

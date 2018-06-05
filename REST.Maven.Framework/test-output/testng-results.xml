@@ -1,25 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="67" started-at="2018-06-04T08:54:40Z" finished-at="2018-06-04T08:54:40Z">
+  <suite name="Default suite" duration-ms="4756" started-at="2018-06-05T07:32:44Z" finished-at="2018-06-05T07:32:49Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="67" started-at="2018-06-04T08:54:40Z" finished-at="2018-06-04T08:54:40Z">
-      <class name="Demo.REST.Maven.Framework.Sample_1_Test">
-        <test-method status="PASS" signature="First_Test()[pri:0, instance:Demo.REST.Maven.Framework.Sample_1_Test@5f341870]" name="First_Test" duration-ms="18" started-at="2018-06-04T11:54:40Z" finished-at="2018-06-04T11:54:40Z">
+    <test name="Default test" duration-ms="4756" started-at="2018-06-05T07:32:44Z" finished-at="2018-06-05T07:32:49Z">
+      <class name="Demo.REST.Maven.Framework.Login_Test">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Demo.REST.Maven.Framework.Login_Test@1e88b3c]" name="Login" duration-ms="4679" started-at="2018-06-05T07:32:44Z" finished-at="2018-06-05T07:32:49Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- First_Test -->
-        <test-method status="PASS" signature="Second_Test()[pri:0, instance:Demo.REST.Maven.Framework.Sample_1_Test@5f341870]" name="Second_Test" duration-ms="5" started-at="2018-06-04T11:54:40Z" finished-at="2018-06-04T11:54:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Second_Test -->
-        <test-method status="PASS" signature="Third_Test()[pri:0, instance:Demo.REST.Maven.Framework.Sample_1_Test@5f341870]" name="Third_Test" duration-ms="9" started-at="2018-06-04T11:54:40Z" finished-at="2018-06-04T11:54:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Third_Test -->
-      </class> <!-- Demo.REST.Maven.Framework.Sample_1_Test -->
+        </test-method> <!-- Login -->
+      </class> <!-- Demo.REST.Maven.Framework.Login_Test -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

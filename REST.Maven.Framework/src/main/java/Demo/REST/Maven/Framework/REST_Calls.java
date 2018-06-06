@@ -13,7 +13,7 @@ public class REST_Calls {
 	private static Logger log = LogManager.getLogger(REST_Calls.class.getName());
 	
 	public static Response GET_Request(String URI) {
-		log.info("Inside GET request call.");
+		log.info("*** GET REQUEST CALL***");
 		RequestSpecification requestSpecification = RestAssured.given();
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.get(URI);
@@ -22,7 +22,7 @@ public class REST_Calls {
 	}
 	
 	public static Response POST_Request(String URI, String payload) {
-		log.info("Inside POST request call.");
+		log.info("*** POST REQUEST CALL ***");
 		RequestSpecification requestSpecification = RestAssured.given().body(payload);
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.post(URI);
@@ -31,7 +31,7 @@ public class REST_Calls {
 	}
 	
 	public static Response POST_Request(String URI, String payload, String sessionID) {
-		log.info("Inside POST request call.");
+		log.info("*** POST REQUEST CALL WITH SESSIONID ***");
 		RequestSpecification requestSpecification = RestAssured.given().body(payload);
 		requestSpecification.contentType(ContentType.JSON);
 		requestSpecification.header("cookie", "JSESSIONID=" + sessionID);
@@ -41,7 +41,7 @@ public class REST_Calls {
 	}
 	
 	public static Response PUT_Request(String URI, String payload) {
-		log.info("Inside PUT request class.");
+		log.info("*** PUT REQUEST CALL ***");
 		RequestSpecification requestSpecification = RestAssured.given().body(payload);
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.put(URI);
@@ -50,7 +50,7 @@ public class REST_Calls {
 	}
 	
 	public static Response DELETE_Request(String URI, String payload) {
-		log.info("Inside DELETE request class.");
+		log.info("*** DELETE REQUEST CALL ***");
 		RequestSpecification requestSpecification = RestAssured.given().body(payload);
 		requestSpecification.contentType(ContentType.JSON);
 		Response response = requestSpecification.delete(URI);

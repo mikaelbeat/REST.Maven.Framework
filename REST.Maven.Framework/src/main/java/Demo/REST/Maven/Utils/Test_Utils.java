@@ -12,37 +12,37 @@ public class Test_Utils {
 	private static Logger log = LogManager.getLogger(Test_Utils.class.getName());
 	
 	public static String Get_Response_String(Response response) {
-		log.info("Converting response to String.");
+		log.info("*** RESPONSE PARSED TO STRING ***");
 		String strResponse = response.getBody().asString();
 		log.debug(strResponse);
 		return strResponse;
 	}
 	
 	public static JsonPath Json_Parser(String response) {
-		log.info("Parsing string response to JSON.");
+		log.info("*** RESPONSE PARSED TO JSON ***");
 		JsonPath jsonResponse = new JsonPath(response);
-		log.debug("JSON response -> " + jsonResponse);
+		log.debug("*** JSON RESPONSE *** " + jsonResponse);
 		return jsonResponse;
 	}
 	
 	public static XmlPath Xml_Parser(String response) {
-		log.info("Parsing string response to XML.");
+		log.info("*** RESPONSE PARSED TO XML ***");
 		XmlPath xmlReponse = new XmlPath(response);
-		log.debug("XML response -> " + xmlReponse);
+		log.debug("*** XML RESPONSE *** " + xmlReponse);
 		return xmlReponse;
 	}
 	
 	public static int Get_Status_Code(Response response) {
-		log.info("Getting  response status code.");
+		log.info("*** GETTING RESPONSE STATUS CODE ***");
 		int statusCode = response.getStatusCode();
-		log.info("Response status code -> " + statusCode);
+		log.info("*** RESPONSE STATUS CODE *** " + statusCode);
 		return statusCode;
 	}
 	
 	public static String Get_Status_Message(Response response) {
-		log.info("Getting response status message.");
+		log.info("*** GETTING RESPONSE STATUS MESSAGE ***");
 		String responseMessage = response.getStatusLine();
-		log.info("Reponse status message -> " + responseMessage);
+		log.info("*** RESPONSE STATUS MESSAGE *** " + responseMessage);
 		return responseMessage;
 	}
 

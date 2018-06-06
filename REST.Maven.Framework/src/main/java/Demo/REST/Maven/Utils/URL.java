@@ -12,12 +12,12 @@ public class URL {
 	public static final String URI = "http://localhost:9090";
 	
 	public static String getURI() {
-		log.info("Base URI: " + URI);
+		log.info("*** BASE URI *** " + URI);
 		return URI;
 	}
 	
 	public static String getURI(String resource) {
-		log.info("URI endpoint: " + URI + resource);
+		log.info("*** FULL URI *** " + URI + resource);
 		return URI + resource;
 	}
 }

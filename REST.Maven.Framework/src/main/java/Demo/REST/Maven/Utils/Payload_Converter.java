@@ -12,7 +12,7 @@ public class Payload_Converter {
 	private static Logger log = LogManager.getLogger(Payload_Converter.class.getName());
 	
 	public static String Convert_Payload(String filename) {
-		log.info("Inside payload converter function.");
+		log.info("*** PAYLOAD CONVERTED TO STRING ***");
 		String filePath = System.getProperty("user.dir")+"\\resources\\payloads\\"+filename;
 		try {
 			return new String(Files.readAllBytes(Paths.get(filePath)));

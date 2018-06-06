@@ -4,6 +4,7 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="Demo.REST.Maven.Framework.Login_Test"/>
+      <class name="Demo.REST.Maven.Framework.Create_Issue"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

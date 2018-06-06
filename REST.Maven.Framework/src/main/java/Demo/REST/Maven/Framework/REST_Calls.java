@@ -30,6 +30,16 @@ public class REST_Calls {
 		return response;
 	}
 	
+	public static Response POST_Request(String URI, String payload, String sessionID) {
+		log.info("Inside POST request call.");
+		RequestSpecification requestSpecification = RestAssured.given().body(payload);
+		requestSpecification.contentType(ContentType.JSON);
+		requestSpecification.header("cookie", "JSESSIONID=" + sessionID);
+		Response response = requestSpecification.post(URI);
+		log.debug(requestSpecification.log().all());
+		return response;
+	}
+	
 	public static Response PUT_Request(String URI, String payload) {
 		log.info("Inside PUT request class.");
 		RequestSpecification requestSpecification = RestAssured.given().body(payload);

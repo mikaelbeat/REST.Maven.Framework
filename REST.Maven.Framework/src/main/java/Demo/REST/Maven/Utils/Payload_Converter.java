@@ -7,8 +7,6 @@ import java.nio.file.Paths;
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 
-import Demo.REST.Maven.Framework.REST_Calls;
-
 public class Payload_Converter {
 	
 	private static Logger log = LogManager.getLogger(Payload_Converter.class.getName());

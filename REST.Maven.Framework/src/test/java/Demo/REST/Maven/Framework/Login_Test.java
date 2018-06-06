@@ -27,7 +27,7 @@ public class Login_Test {
 		String login_Payload = Payload_Converter.Convert_Payload("Jira_Login.json");
 		String endpoint_URI = URL.getURI("/rest/auth/1/session");
 		response = REST_Calls.POST_Request(endpoint_URI, login_Payload);
-		log.info(response.getBody().asString());
+		log.info("Response -> " + response.getBody().asString());
 		
 		String str_Response = response.getBody().asString();
 		System.out.println("********** RESPONSE JSON **********");
@@ -36,7 +36,7 @@ public class Login_Test {
 		JsonPath jsonRes = new JsonPath(str_Response);
 		String sessionID = jsonRes.getString("session.value");
 		System.out.println("Session ID is: " + sessionID);
-		log.info("Jira session ID: " + sessionID);
+		log.info("Jira session ID -> " + sessionID);
 		
 		
 	}

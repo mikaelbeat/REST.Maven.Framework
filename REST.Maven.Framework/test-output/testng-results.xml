@@ -2,22 +2,22 @@
 <testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="5015" started-at="2018-06-07T09:48:31Z" finished-at="2018-06-07T09:48:36Z">
+  <suite name="Suite" duration-ms="6895" started-at="2018-06-08T07:33:33Z" finished-at="2018-06-08T07:33:40Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="5015" started-at="2018-06-07T09:48:31Z" finished-at="2018-06-07T09:48:36Z">
+    <test name="Test" duration-ms="6895" started-at="2018-06-08T07:33:33Z" finished-at="2018-06-08T07:33:40Z">
       <class name="Demo.REST.Maven.Framework.Create_Issue_Test">
-        <test-method status="PASS" signature="Set_Up()[pri:0, instance:Demo.REST.Maven.Framework.Create_Issue_Test@887af79]" name="Set_Up" is-config="true" duration-ms="212" started-at="2018-06-07T09:48:35Z" finished-at="2018-06-07T09:48:35Z">
+        <test-method status="PASS" signature="Set_Up()[pri:0, instance:Demo.REST.Maven.Framework.Create_Issue_Test@887af79]" name="Set_Up" is-config="true" duration-ms="359" started-at="2018-06-08T07:33:38Z" finished-at="2018-06-08T07:33:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Set_Up -->
-        <test-method status="PASS" signature="Create_Issue()[pri:0, instance:Demo.REST.Maven.Framework.Create_Issue_Test@887af79]" name="Create_Issue" duration-ms="1294" started-at="2018-06-07T09:48:35Z" finished-at="2018-06-07T09:48:36Z">
+        <test-method status="PASS" signature="Create_Issue()[pri:0, instance:Demo.REST.Maven.Framework.Create_Issue_Test@887af79]" name="Create_Issue" duration-ms="1514" started-at="2018-06-08T07:33:38Z" finished-at="2018-06-08T07:33:40Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Create_Issue -->
       </class> <!-- Demo.REST.Maven.Framework.Create_Issue_Test -->
       <class name="Demo.REST.Maven.Framework.Login_Test">
-        <test-method status="PASS" signature="Login()[pri:0, instance:Demo.REST.Maven.Framework.Login_Test@7b49cea0]" name="Login" duration-ms="3446" started-at="2018-06-07T09:48:31Z" finished-at="2018-06-07T09:48:35Z">
+        <test-method status="PASS" signature="Login()[pri:0, instance:Demo.REST.Maven.Framework.Login_Test@7b49cea0]" name="Login" duration-ms="4939" started-at="2018-06-08T07:33:33Z" finished-at="2018-06-08T07:33:38Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
